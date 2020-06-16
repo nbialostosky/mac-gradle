@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+  build:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - run: ./gradlew hello
